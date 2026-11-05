@@ -32,3 +32,34 @@ img {
 .button:hover {
   background: #1d4ed8;
 }
+.menu {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.menu a {
+  margin: 0 10px;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.feature {
+  flex: 1;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .cards {
+    flex-direction: column;
+  }
+}
